@@ -1,0 +1,32 @@
+
+body {
+  background-color: #8FBFE0;
+  text-align: center;
+  color: #263D42;
+  font-family: sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 50px;
+}
+
+ul li:hover {
+  background-color: #C3A29E;
+}

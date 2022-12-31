@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quotes App</title>
+    <link href="static/css/style.css" rel="stylesheet"/>
+  </head>
+
+  <body>
+    
+    <nav>
+      <a href="#quoteList" target="_self">Quote List</a>
+      <a href="#addToList" target="_self">Add Quote</a>
+    </nav>
+
+    <header>
+      <h1>Quotes App</h1>
+      <h4>Jacob White</h4>
+    </header>
+
+    <section id="quotes">
+      <br>
+      <h2>Quotes</h2>
+      <ul id="quoteList">
+      </ul>
+      <button type="button" id="btnUploadQuotes">Upload Quotes</button>
+    </section>
+
+    
+    <section id="displayArea">
+      <h3>Selected Quote</h3>
+      <label for="idDisplay">ID:</label><br>
+      <input id="idDisplay" name="idDisplay" disabled><br>
+      <label for="sourceDisplay">Source:</label><br>
+      <input id="sourceDisplay" name="sourceDisplay" disabled><br>
+      <label for="quoteDisplay">Quote:</label><br>
+      <textarea id="quoteDisplay" name="quoteDisplay" rows="10" cols="70" disabled></textarea><br><br>
+      <button type="button" id="btnDeleteQuote">Delete Quote</button>
+      <button type="button" id="btnRandomQuote">Random Quote</button>
+    </section>
+    
+    
+    <section id="addToList">
+      <h3>Add Quote</h3>
+      <form id="addQuote" method="put">
+        <label for="sourceAdd">Source:</label><br>
+          <input type="text" id="sourceAdd" name="sourceAdd"><br>
+        <label for="quoteAdd">Quote:</label><br>
+        <textarea type="text" id="quoteAdd" name="quoteAdd" rows="10" cols="70"></textarea><br>
+        <button type="button" id="btnAddQuote">Add Quote</button>
+      </form>
+    </section>
+
+    <!--
+    <footer>
+      <h5>By Jacob White</h5>
+    </footer>
+    -->
+    <br>
+    <br>
+    
+    <script src="static/js/app.js"></script>
+    
+  </body>
+  
+</html>
